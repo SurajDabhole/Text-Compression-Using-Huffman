@@ -42,6 +42,6 @@ nbdist/
 Thumbs.db
 
 # User-generated binary or output files
-inputFile.txt
-outputFile.txt
-compressedFile.huf
+# inputFile.txt
+# outputFile.txt
+# compressedFile.huf
