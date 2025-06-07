@@ -1,0 +1,47 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Compressed files
+*.zip
+*.gz
+*.huf
+
+# Package distribution
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.cproject
+.settings/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# User-generated binary or output files
+inputFile.txt
+outputFile.txt
+compressedFile.huf
