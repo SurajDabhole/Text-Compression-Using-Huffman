@@ -48,43 +48,62 @@ Huffman Coding assigns shorter binary codes to more frequent characters and long
 javac Huffman.java Encode.java Decode.java
 
 📚 Compress a File
-java Encode inputFile.txt compressedFile.huf
-Sample Output:
-Compressed successfully.
-Input File Size     : 5120 bytes
-Compressed File Size: 2048 bytes
+    java Encode inputFile.txt compressedFile.huf
+    
+    Sample Output:
+        Compressed successfully.
+        
+        Input File Size     : 5120 bytes
+        
+        Compressed File Size: 2048 bytes
 
 📂 Decompress a File
-java Decode compressedFile.huf outputFile.txt
-Sample Output:
-Decompressed successfully.
-Compressed File Size: 2048 bytes
-Output File Size    : 5120 bytes
+    java Decode compressedFile.huf outputFile.txt
+    
+    Sample Output:
+        Decompressed successfully.
+        
+        Compressed File Size: 2048 bytes
+        
+        Output File Size    : 5120 bytes
 
 ✅ Verify Output
 Ensure that outputFile.txt matches inputFile.txt exactly.
 
 🧠 Core Concepts Used
-Huffman Tree: A binary tree with frequency-based node placement.
-Priority Queue (Min Heap): Used to build the tree with minimal cost.
-Binary Encoding: Characters are replaced with their respective binary codes.
-Bit Manipulation: Compressing into and reading from binary format.
-File I/O (Binary + Text): Reads/writes both binary and plain-text files.
+      Huffman Tree: A binary tree with frequency-based node placement.
+      
+      Priority Queue (Min Heap): Used to build the tree with minimal cost.
+      
+      Binary Encoding: Characters are replaced with their respective binary codes.
+      
+      Bit Manipulation: Compressing into and reading from binary format.
+      
+      File I/O (Binary + Text): Reads/writes both binary and plain-text files.
 
 📊 Example
-File	Size (Bytes)
-inputFile.txt	5120
-compressedFile.huf	2048
-outputFile.txt	5120
+    File	Size (Bytes)
+    
+    inputFile.txt	5120
+    
+    compressedFile.huf	2048
+    
+    outputFile.txt	5120
 
 📚 Use Cases
-Text file compression (logs, data, documents)
-Learning Huffman algorithms
-Benchmarking custom compression
-Demonstrating lossless compression techniques in Java
+    Text file compression (logs, data, documents)
+    
+    Learning Huffman algorithms
+    
+    Benchmarking custom compression
+    
+    Demonstrating lossless compression techniques in Java
 
 📎 Future Enhancements
-Add support for all 256 ASCII characters
-GUI interface using JavaFX or Swing
-File checksum verification post-decompression
-Folder compression support
+    Add support for all 256 ASCII characters
+    
+    GUI interface using JavaFX or Swing
+    
+    File checksum verification post-decompression
+    
+    Folder compression support
